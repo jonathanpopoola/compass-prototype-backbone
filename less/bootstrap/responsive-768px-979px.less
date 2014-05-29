@@ -1,0 +1,338 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  // Fixed grid
+  #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
+
+  // Fluid grid
+  #grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
+
+  // Input grid
+  #grid > .input(@gridColumnWidth768, @gridGutterWidth768);
+
+  // No need to reset .thumbnails here since it's the same @gridGutterWidth
+
+.navbar .nav > li > a {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+} 
+
+.contentBox {
+    h3 {
+      margin-left: 10px !important;
+    }
+  }
+  
+  .halfContent {
+    width: 100%;
+  }
+  
+    #storiesCarousel {
+    h5, p, i {
+      margin-left: 10px;
+    }  
+  }
+  
+     .appIcon {
+  height: 55px;
+  width: 60px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  }
+  
+  .app {
+  width: 60px;
+  text-align: center;
+  height: 70px;
+  float: left;
+  margin: 20px 40px 20px 0px;
+}
+
+#mainContainer {
+  padding-bottom: 20px !important;
+}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+ {
+      .appIcon {
+  height: 55px;
+  width: 60px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  }
+  
+  .app {
+  width: 60px;
+  text-align: center;
+  height: 70px;
+  float: left;
+  margin: 20px 40px 20px 0px;
+}
+  
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  
+  #dismissAlert {
+    display: none;
+  }
+  
+  .marAdder {
+  margin-top: 0px !important;
+}
+  
+  .sourceBack {
+  margin-top: 0px !important;
+}
+  
+    .customDrop {
+   width: 570px;
+   
+   a {
+     font-weight: 10px;
+     clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 10px;
+    white-space: nowrap;
+   }
+   a:Hover {
+     background: #eee;
+     text-decoration: none;
+   }
+}
+
+.dropHeight {
+  height: 140px ;
+}
+
+.dropdown-menu ul {
+  width: 190px;
+}
+  
+  /* Styles */
+ .halfContent {
+    width: 100%;
+    h3, p, a {
+      margin-left: 10px;
+    }
+  }
+  .fullContent {
+    h3,i,p {
+      margin-left: 10px;
+    }
+    p {
+      margin-right: 10px;
+    }
+    h3 {
+      font-size: 1.4em; 
+    }
+  }
+  .apps {
+  h3 {
+    font-size: 1.4em; 
+  }
+}
+
+.green {
+ margin-top: 20px !important;
+  button {
+    margin-bottom: 20px !important;
+  }
+}
+
+  .appIcon {
+  height: 55px;
+  width: 60px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  }
+  
+  .app {
+  width: 60px;
+  text-align: center;
+  height: 70px;
+  float: left;
+  margin: 20px 40px 20px 0px;
+}
+ 
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+
+.marAdder {
+  margin-top: 0px !important;
+}
+
+.sourceBack {
+  margin-top: 0px !important;
+}
+
+.newsItem {
+  i {margin-left: 10px !important}
+}
+ 
+ .newsContent {
+    min-height: 900px  !important;
+  float: left;
+ }
+ 
+ .pagination {
+   float: left !important;
+   margin-left: 20px;
+ }
+ 
+ #userprofilebutton {
+   display: none;
+ }
+ 
+   .customDrop {
+   width: 570px;
+   
+   a {
+     font-weight: 10px;
+     clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 10px;
+    white-space: nowrap;
+   }
+   a:Hover {
+     background: #eee;
+     text-decoration: none;
+   }
+}
+
+.dropHeight {
+  height: 140px ;
+}
+
+.dropdown-menu ul {
+  width: 190px;
+}
+ 
+ .noPadLi {
+   li {
+   margin-left: 0px !important;
+   }
+ }
+ .halfContent {
+    width: 100%;
+    h3, p, a {
+      margin-left: 10px;
+    }
+  }
+  .fullContent {
+    h3,i,p {
+      margin-left: 10px;
+    }
+    p {
+      margin-right: 10px;
+    }
+    h3 {
+      font-size: 1.4em; 
+    }
+  }
+  .apps {
+  h3 {
+    font-size: 1.3em; 
+  }
+}
+
+.blueList {
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+  .appIcon {
+  height: 55px !important;
+  width: 60px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important; 
+  }
+  
+  .app {
+  width: 60px !important;
+  text-align: center !important;
+  height: 70px !important;
+  float: left !important;
+  margin: 20px 40px 20px 0px !important;
+}
+
+.apps {
+  button {
+  margin: 20px 0px 20px 0px !important;
+  }
+}
+
+}
+
+.dropdown-menu ul {
+  width: 190px;
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .appIcon {
+  height: 55px !important ;
+  width: 60px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important; 
+  }
+  
+  .app {
+  width: 60px !important;
+  text-align: center !important;
+  height: 70px !important;
+  float: left !important;
+  margin: 20px 40px 20px 0px !important;
+}
+
+#appendedDropdownButton {
+    width: 80px !important;
+  }
+
+
+
+}
+
+
+/*@media all and (min-width: 980px) and (max-width: 1023px) {
+     .appIcon {
+  height: 55px;
+  width: 60px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  }
+  
+  .app {
+  width: 60px;
+  text-align: center;
+  height: 70px;
+  float: left;
+  margin: 20px 40px 20px 0px;
+}
+}*/
+

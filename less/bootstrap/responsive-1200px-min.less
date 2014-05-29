@@ -1,0 +1,137 @@
+//
+// Responsive: Large desktop and up
+// --------------------------------------------------
+
+
+@media (min-width: 1200px) {
+
+  // Fixed grid
+  #grid > .core(@gridColumnWidth1200, @gridGutterWidth1200);
+
+  // Fluid grid
+  #grid > .fluid(@fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
+
+  // Input grid
+  #grid > .input(@gridColumnWidth1200, @gridGutterWidth1200);
+
+  // Thumbnails
+  .thumbnails {
+    margin-left: -@gridGutterWidth1200;
+  }
+  .thumbnails > li {
+    margin-left: @gridGutterWidth1200;
+  }
+  .row-fluid .thumbnails {
+    margin-left: 0;
+  }
+  
+  // CUSTOM STYLES HERE
+  
+  .apps {
+    li {
+      min-height: 90px !important;
+    }
+  }
+  
+  
+  #appendedDropdownButton {
+  width: 130px !important;
+  }
+  
+  .fullContent {
+
+  h3 {
+    margin-left: 20px;
+  
+  }
+
+} 
+
+.sourceBack {
+  margin-top: 0px !important;
+}
+
+  .marAdder {
+  margin-top: 0px !important;
+}
+
+  .halfContent {
+    width: 47% !important;
+    h3 {
+      margin-left: 10px !important;
+    }
+    h5 {
+      font-weight: bold;
+      font-size: 1em;
+      line-height: 0.8em;
+    } 
+    p {
+      font-size: 0.9em;
+      line-height: 1.2em;
+      margin-top: 5px !important;
+    }
+    
+  }
+  
+  .lastCon {
+    float: right !important;
+  }
+  
+  
+  
+  #storiesCarousel {
+    p {margin: 10px 20px 10px 0px;}
+  }
+  .green {
+  button { 
+    margin: 20px 0px 20px 0px !important;
+  }
+  }
+  
+  .appIcon {
+  height: 55px !important;
+  width: 60px !important;
+  -webkit-border-radius: 5px !important;
+  border-radius: 5px !important; 
+  }
+  
+  .app {
+  width: 60px !important;
+  text-align: center !important;
+  height: 70px !important;
+  float: left !important;
+  margin: 20px 40px 20px 0px !important;
+}
+
+  .customDrop {
+   width: 570px;
+   
+   a {
+     font-weight: 10px;
+     clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 10px;
+    white-space: nowrap;
+   }
+   a:Hover {
+     background: #eee;
+     text-decoration: none;
+   }
+}
+
+.dropHeight {
+  height: 140px ;
+}
+
+.dropdown-menu ul {
+  width: 190px;
+}
+
+#mainContainer {
+  padding-bottom: 110px !important;
+}
+
+}
